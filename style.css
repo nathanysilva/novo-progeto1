@@ -1,6 +1,6 @@
 :root{
-    --bg-color: rgb(207, 34, 34);
-    --primary-color:#c4c0c0;
+    --bg-color: rgb(255, 248, 248);
+    --primary-color:#1f1e1e;
     --secondary-color: #f05454;
     --font: "nunito sans", sans-serif;
 }
@@ -8,7 +8,7 @@
 body{
     background-color: var(--bg-color);
     color: var(--primary-color);
-    font-size: var(--font);
+    font-family: var(--font);
     height: 100vh;
     margin: 0;
 }

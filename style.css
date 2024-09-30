@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 :root{
     --bg-color: rgb(255, 248, 248);
     --primary-color:#1f1e1e;
@@ -42,4 +46,12 @@ nav a{
 nav a:hover{
     text-decoration: underline;
     transform: scale(0.90);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
 }
